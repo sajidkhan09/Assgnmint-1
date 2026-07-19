@@ -77,16 +77,23 @@ header{
 /* Speaker section */
 .speaker{
     text-align: center;
-
+}
+.speaker h1{
+    padding: 55px;
+    font-size: 300%;
 }
 .speaker-sec{
     display: grid;
     grid-template-columns:repeat(2,1fr);
-    border:1px solid #dadddf;
     gap: 20px;
-    border-radius:12px;
     padding:8px;
 
+}
+.speakers{
+    border:1px solid #E5E7EB;
+    border-radius:12px ;
+    gap: 25px;
+    
 }
 .speaker-sec img{
     height:300px;
@@ -95,8 +102,9 @@ header{
     border-radius:12px;
     display:block;
 }
-.speaker-sec div p,h5{
+.speaker-sec div p,h5,h6{
 text-align:  left;
+padding:8px;
     
 
 }
@@ -113,5 +121,35 @@ text-align:  left;
 /* speaker section end */
 
 /* card section */
+.cart-sec{
+    text-align: center;
+    margin:35px auto;
+    
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart-1{
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:30px;
+    text-align: left;
+    gap: 5px 20px;
+    justify-content:space-between;
+    display:flex;
+    flex-direction: column;
+    width:240px;
+    
+
+    
+}
+.cart-2{
+     border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:30px ;
+
+}
 
     
